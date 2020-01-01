@@ -7,8 +7,8 @@
 GMSMOOTH(y, x, h)
 }
 \arguments{
-\item{y}{true distributions
-@param x random seq}
+\item{y}{True distributions}
+\item{x}{ A random seq}
 
 \item{h}{the bandwidth}
 }
