@@ -9,8 +9,8 @@ NWSMOOTH(h, y, x)
 \arguments{
 \item{h}{the bandwidth}
 
-\item{y}{true distributions
-@param x random seq}
+\item{y}{true distributions}
+\item{x}{A random seq}
 }
 \value{
 NW kernel estimation \code{n}
