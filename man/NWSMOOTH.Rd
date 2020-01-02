@@ -7,9 +7,9 @@
 NWSMOOTH(h, y, x)
 }
 \arguments{
-\item{h}{the bandwidth}
+\item{h}{The bandwidth}
 
-\item{y}{true distributions}
+\item{y}{True distributions}
 \item{x}{A random seq}
 }
 \value{
