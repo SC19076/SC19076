@@ -30,9 +30,7 @@ Maintainer: Mengyao Chen <chenmy19@mail.ustc.edu.cn>
 }
 \examples{
   \dontrun{
-     ## x <- seq(-1, 1, length = 40)
-     ## y <- 5 * x * cos(5 * pi * x)
-     ## h <- 0.055
-     ## GMsmooth.val <- GMSMOOTH(y, x, h)   
+     ## Optional simple examples of the most important functions 
+     ## These can be in \dontrun{} and \donttest{} blocks.     
   }
 }
