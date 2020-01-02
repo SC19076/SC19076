@@ -2,33 +2,37 @@
 \alias{SC19076-package}
 \alias{SC19076}
 \docType{package}
-\title{
-  A short title line describing what the package does
+\title{Nonparametric kernel estimation
 }
 \description{
-  A more detailed description of what the package does. A length
-  of about one to five lines is recommended.
+  SC19076 is a simple R package developed to Compare GM algorithm and NW algorithm of two algorithms in non-parametric kernel regression,
+  comparing the estimation of the regression part in non-parametric kernel regression by these two algorithms, 
+  and setting different bandwidth to study the performance of these two algorithms under different bandwidth.
 }
 \details{
-  This section should provide a more detailed overview of how to use the
-  package, including the most important functions.
+  Before using these two functions, the parameters of the function should be set first. Here, the function has three parameters,
+    namely x,y,h.x represents the randomly generated seq sequence,y represents the real distribution, and h represents the bandwidth.
+  Two algorithms are used to compare their performance in the non-parametric kernel estimation, 
+  and then different bandwidths are set to compare the performance of the two algorithms.
 }
 \author{
-Your Name, email optional.
+Mengyao Chen, chenmy19@mail.ustc.edu.cn.
 
-Maintainer: Your Name <your@email.com>
+Maintainer: Mengyao Chen <chenmy19@mail.ustc.edu.cn>
 }
 \references{
   This optional section can contain literature or other references for
   background information.
 }
-\keyword{ package }
+\keyword{ SC19076 }
 \seealso{
   Optional links to other man pages
 }
 \examples{
   \dontrun{
-     ## Optional simple examples of the most important functions
-     ## These can be in \dontrun{} and \donttest{} blocks.   
+     ## x <- seq(-1, 1, length = 40)
+     ## y <- 5 * x * cos(5 * pi * x)
+     ## h <- 0.055
+     ## GMsmooth.val <- GMSMOOTH(y, x, h)   
   }
 }
