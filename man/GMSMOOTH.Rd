@@ -10,7 +10,7 @@ GMSMOOTH(y, x, h)
 \item{y}{True distributions}
 \item{x}{ A random seq}
 
-\item{h}{the bandwidth}
+\item{h}{The bandwidth}
 }
 \value{
 GM kernel estimation \code{n}
